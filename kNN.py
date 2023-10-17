@@ -1,11 +1,6 @@
 # Implement k-Nearest Neighbors algorithm here
 from collections import Counter
-
 import numpy as np
-import matplotlib.pyplot as plt
-
-def distance(x1, x2):
-    return np.sqrt(np.sum((x1 - x2)**2))
 
 class KNN:
     def __init__(self, k=3, X=None, y=None):
